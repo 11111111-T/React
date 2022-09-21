@@ -1,7 +1,5 @@
 // import logo from './auxiliary/logo.svg';
 // import './auxiliary/App.css';
-import List from './views/list'
-
 // 1:识别常规变量
 const name = "ZZ";
 // 2:原生js方法调用
@@ -17,7 +15,8 @@ function App() {
       <h1>你好，我叫{name}</h1>
       {age()}
     <p>{flag ? "真" : "假"}</p>  
-    <List/>
+
+    
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>

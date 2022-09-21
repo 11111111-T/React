@@ -9,14 +9,12 @@ import "./index.css";
 import App from "./App";
 // import reportWebVitals from './auxiliary/reportWebVitals';
 
-// 渲染根组件APP 到一个id为root的dom节点上
+// 渲染根组件
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  //这里的严格模式节点需要去掉
-  // 影响到useEffect的执行时机
-  // <React.StrictMode>
-  //  </React.StrictMode>,
-  <App />
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
 );
 
 // reportWebVitals();

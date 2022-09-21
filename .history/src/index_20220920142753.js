@@ -13,9 +13,8 @@ import App from "./App";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   //这里的严格模式节点需要去掉
-  // 影响到useEffect的执行时机
   // <React.StrictMode>
-  //  </React.StrictMode>,
+  //  </React.StrictMode>, 
   <App />
 );
 
